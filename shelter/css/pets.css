@@ -1,0 +1,50 @@
+.header__inner {
+  background: #ffffff;
+}
+.header__cozy {
+  color: #545454;
+}
+.header__boston {
+  color: #292929;
+}
+.header .pets-nav-el {
+  color: #545454;
+}
+
+.our-pets__inner {
+  box-sizing: border-box;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-color: #F6F6F6;
+  margin: 0 auto;
+  width: 1280px;
+  height: 1340px;
+}
+.our-pets__content {
+  height: 1162px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-pets__container {
+  width: 1200px;
+  height: 930px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-pets__navigator {
+  width: 340px;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+.our-pets .circle-center {
+  box-sizing: border-box;
+  background-color: #F1CDB3;
+  display: flex;
+  align-items: center;
+  padding-left: 21px;
+}/*# sourceMappingURL=pets.css.map */
