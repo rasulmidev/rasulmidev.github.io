@@ -1,0 +1,60 @@
+.five {
+
+  &__inner {
+    background: url(/cyberpunk/images/five/five.jpg);
+    display: flex;
+    justify-content: end;
+  }
+
+  &__cover {
+    width: 50%;
+  }
+
+  &__buy-game {
+    background-color: black;
+    width: 50%;
+    max-height: 717;
+    padding: 70px 0 70px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__title {
+    color: #ffffff;
+  }
+
+  &__list {
+  }
+
+  &__text {
+  }
+
+  &__list-item {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__sub-text {
+    color: #ffffff;
+  }
+
+  &__platforms-box {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 319px;
+    height: 186px;
+  }
+
+  &__platforms {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 79px;
+  }
+
+}
+
+

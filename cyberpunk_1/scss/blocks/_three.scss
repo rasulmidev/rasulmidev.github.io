@@ -1,0 +1,127 @@
+.three {
+
+  &__inner {
+    background-color: #000000;
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 884px;
+    padding-bottom: 70px;
+  }
+
+  &__head-img {
+  }
+
+  &__header-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon-box {
+  }
+
+  &__icon {
+  }
+
+  &__title {
+    color: #ffffff;
+  }
+
+  &__text {
+    color: #ffffff;
+    width: 952px;
+    height: 91px;
+  }
+
+  &__form {
+    width: 460px;
+    height: 383px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__cnsl{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0 25px;
+    padding-top: 25px;
+    height: 456px;
+    width: 788px;
+    background: url(/cyberpunk/images/three/three-bg.png);
+  }
+
+  &__img-cnsl {
+    width: 296px;
+    height: 351px;
+  }
+
+}
+
+
+.form {
+
+  &__name {
+    width: 460px;
+    height: 35px;
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.65);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+  }
+
+  &__email {
+    width: 460px;
+    height: 35px;
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.65);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+  }
+
+  &__textarea {
+    width: 460px;
+    height: 120px;
+    border: 1px dashed #b8b3b3;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(255, 255, 255, 0.65);
+  }
+
+  &__btn {
+    width: 152px;
+    height: 59px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    background-color: #F8F200;
+  }
+  &__btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 0.75s;
+  }
+
+  &__lbl-text {
+    color: rgba(255, 255, 255, 0.65);
+  }
+
+  &__checkbox {
+    accent-color: #F8F200;
+  }
+}
+
+
+
+
+
+
