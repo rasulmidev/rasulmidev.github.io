@@ -1,0 +1,53 @@
+.two {
+
+  &__wrapper {
+    padding: 80px 0;
+  }
+
+  &__title {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+
+  &__card-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  &__card {
+    max-width: 330px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__card-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+  }
+
+  &__card-title {
+    font-size: 24;
+    font-weight: 700;
+  }
+
+  &__card-text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  &__btn {
+    width: 146px;
+    height: 48px;
+  }
+}
+
+

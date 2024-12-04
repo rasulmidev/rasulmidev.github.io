@@ -1,0 +1,52 @@
+.header {
+  
+  box-shadow: 0px 4px 8px 0px #26323814;
+  box-shadow: 0px 2px 4px 0px #26323829;
+  border-radius: 10px;
+
+  &__wrapper {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo-box {
+    width: 200px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    span{
+      font-size: 48px;
+      font-weight: 700;
+    }
+  }
+
+  &__nav {
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  &__nav-link{
+    color: #6C5CE7;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    transition: color 200ms;
+
+    &:hover{
+    color: #978de6;
+    }
+  }
+
+  &__btn {
+    font-size: 24px;
+    width: 170px;
+    height: 64px;
+  }
+}
+
+
